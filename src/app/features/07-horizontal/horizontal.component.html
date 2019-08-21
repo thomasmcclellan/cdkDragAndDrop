@@ -1,0 +1,14 @@
+<div 
+  class="example-list"
+  cdkDropList
+  cdkDropListOrientation="horizontal"
+  (cdkDropListDropped)="drop($event)"
+>
+  <div 
+    class="example-box"
+    *ngFor="let timePeriod of timePeriods"
+    cdkDrag
+  >
+    {{ timePeriod }}
+  </div>
+</div>
