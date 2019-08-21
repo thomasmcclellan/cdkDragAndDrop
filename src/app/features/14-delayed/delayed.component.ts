@@ -1,15 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-delayed',
   templateUrl: './delayed.component.html',
   styleUrls: ['./delayed.component.css']
 })
-export class DelayedComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class DelayedComponent { }
